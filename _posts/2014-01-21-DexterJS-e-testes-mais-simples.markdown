@@ -50,7 +50,7 @@ fakeCookies.callback = function() {
 	return 42;
 };
 
-// agora foo() é uma funcao que trabalha com o retorno de pegaCookies(),
+// agora foo() é uma função que trabalha com o retorno de pegaCookies(),
 // em uma lógica muito complexa, ele deveria retornar true
 // se pegaCookies() retornar exatamente 42.
 ok( foo(), 'foo() => true' );
@@ -163,6 +163,6 @@ npm install dexter
 
 ### É um projeto Open Source
 
-A parte mais incrível de escrever o DexterJS é justamente onde ele é Open Source, com licença que permite que ele seja utilizado livremente, inclusive para aplicações de fins comerciais, e com a ajuda expontânea de outras pessoas. Algumas colabararam com código, e faço questão de expor isso em forma de agradecimento: https://github.com/leobalter/DexterJS/graphs/contributors
+A parte mais incrível de escrever o DexterJS é justamente onde ele é Open Source, com licença que permite que ele seja utilizado livremente, inclusive para aplicações de fins comerciais, e com a ajuda espontânea de outras pessoas. Algumas colaboraram com código, e faço questão de expor isso em forma de agradecimento: https://github.com/leobalter/DexterJS/graphs/contributors
 
 No quesito responsabilidade, principalmente por ser Open Source e estar disponível a pessoas que criam expectativas de que tudo vai funcionar bem, o Dexter é mantido sob vários testes, com cobertura de código alta e utilizando o Travis-CI para integração contínua. Isso garante estabilidade, afinal, quem busca uma ferramenta para desenvolvimento quer se livrar de alguma dor de cabeça da rotina do trabalho no dia a dia, e não arrumar mais uma. Toda essa preocupação pela qualidade do código aumenta quando se trata de algo para auxiliar o ecossistema de testes unitários.
