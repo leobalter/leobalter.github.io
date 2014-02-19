@@ -10,6 +10,11 @@
   padding: 0;
 }
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html, body { height: 100%; }
 
 body {
@@ -57,10 +62,12 @@ a:visited { color: #a0a; }
 
 .site {
   font-size: 115%;
-  text-align: justify;
-  width: 42em;
+  text-align: left;
+  min-width: 320px;
+  max-width: 960px;
   margin: 3em auto 2em;
   line-height: 1.5em;
+  padding: 0 20px;
 }
 
 .header a {
@@ -169,4 +176,8 @@ blockquote {
   padding: 0px 15px;
   color: #777;
   margin: 15px 0px;
+}
+
+.post img {
+  max-width: 100%;
 }
