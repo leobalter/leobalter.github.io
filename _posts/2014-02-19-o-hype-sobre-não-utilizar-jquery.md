@@ -78,7 +78,7 @@ Diferente de desevolver algo que rode em um servidor, seja em Node, Perl, Python
 
 De todo o código que você pode abstrair no jQuery, considere uma redução de tempo incrível para testar apenas o mínimo que já foi feito após o carregamento da biblioteca para garantir que tudo funciona em qualquer browser que você queira dar suporte. Lembre-se que o jQuery 1.x ainda dá suporte ao quase extinto IE6, enquanto o jQuery 2.x da suporte a IE9+ e outros navegadores considerados modernos. É um tempo que não precisamos perder.
 
-Ainda considerando o jQuery 2.x, vale lembrar que só nessa versão temos mais de 100 itens marcados para soluções de compatibilidade crossbrowser. O [Rick Waldron](https://twitter/rwaldron) compilou [uma lista com esses itens][4]. Se quiser criar seu próprio JS puro, vale a pena conferir para não cair em algumas das pegadinhas já observadas e corrigidas no jQuery.
+Ainda considerando o jQuery 2.x, vale lembrar que só nessa versão temos mais de 100 itens marcados para soluções de compatibilidade crossbrowser. O [Rick Waldron](https://twitter.com/rwaldron) compilou [uma lista com esses itens][4]. Se quiser criar seu próprio JS puro, vale a pena conferir para não cair em algumas das pegadinhas já observadas e corrigidas no jQuery.
 [4]: https://gist.github.com/rwaldron/8720084#file-reasons-md
 
 
