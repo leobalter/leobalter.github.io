@@ -28,7 +28,7 @@ Aqui mostra que o site carrega **mais de 320KB em fontes**, com 4 versões difer
 2. Considere não carregar imagens.
 ========
 
-Em um outro exemplo o mesmo site carrega mais de 600KB de imagens, é o grande peso no site. Vejamos nesse gráfico pizza como o site é equilibra o peso:
+Em um outro exemplo o mesmo site carrega mais de 600KB de imagens, é o grande peso no site. Vejamos nesse gráfico pizza como o site é equilibrado no peso:
 
 [![Gráfico pizza](/images/tableless-pizza.png)](/images/tableless-pizza.png)
 
@@ -36,11 +36,11 @@ Ou seja, de 694KB carregados do site - sem as fontes - temos 618KB só de imagen
 
 Mas fica a dúvida se elas estão sendo utilizadas. Eu fiz esse teste de carregamento na home do site, então fui verificar quais seriam essas imagens. Terminei na primeira imagem que observei, a mais pesada delas:
 
-[![Fontes](/images/tableless-imagens.png)](/images/tableless-imagens.png)
+[![Imagens](/images/tableless-imagens.png)](/images/tableless-imagens.png)
 
 A imagem mais pesada que era carregada, inclusive com mais de 100KB, simplesmente não era utilizada na home, onde fiz a medição e checagem.
 
-3. Considere usar GZIP
+3. Considere usar GZIP.
 ========
 
 Muitos sites simplesmente não utilizam compactação em seus arquivos estáticos. Isso é algo além de minimizar um arquivo JS, mas simplesmente complementar essa minimização com um GZIP, por exemplo. Com isso o jQuery inteiro custaria 32KB para ser carregado.
