@@ -17,7 +17,7 @@ Quero deixar claro uma parte da minha opinião que não é diminuir ou ser agres
 Deixei inclusive um [tuite] comentando o assunto, lá dizia: "*Desenvolvedores, sejam educados, críticos e ponderados ao debater um assunto técnico, essa é a profissão de vocês e não um Hunger Games.*".
 [tuite]: https://twitter.com/leobalter/status/436202956422397952
 
-Dito isso, ressalto que **tenho muita adimiração pelo Tableless** e sou um leitor regular do site.
+Dito isso, ressalto que **tenho muita admiração pelo Tableless** e sou um leitor regular do site.
 
 Bons efeitos
 ======
