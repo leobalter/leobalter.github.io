@@ -64,17 +64,17 @@ O jQuery está todo testado. Logo, mesmo que você pegue uma parte menor da bibl
 
 Quantas vezes já implementaram algo com jQuery e o bug estava lá na biblioteca e não no seu código? 
 
-Se realmente achar um bug no jQuery, aproveita pra reportar no [Issue Tracker][3] oficial. Vai ter um time pra consertar o bug e criar testes para que o mesmo não aconteça novamente. É como se fosse um outsourcing gratuito pra parte do seu código.
+Se realmente achar um bug no jQuery, aproveite para reportar no [Issue Tracker][3] oficial. Vai haver todo um time para consertar o bug e criar testes para que o mesmo não aconteça novamente. É como se fosse um outsourcing gratuito para parte do seu código.
 [3]: http://bugs.jquery.com/
 
 6. Considere a compatibilidade cross-browser
 ========
 
-Há pouco tempo apareceu o artigo "You might not need jQuery", declarando o ápice para o hype que mencionei. O interessante que ele mostrava como substituir alguns pontos do jQuery para JS puro, com alguns ms de performance a mais.
+Há pouco tempo apareceu o artigo "You might not need jQuery", declarando o auge para o hype que mencionei. O interessante que ele mostrava como substituir alguns pontos do jQuery para JS puro, com alguns ms de performance a mais.
 
-O problema é que muitas vezes paramos com problemas chatíssimos de compatibilidade.
+O problema é que muitas vezes nos deparamos com maçantes problemas de compatibilidade.
 
-Diferente de desevolver algo que rode em um servidor, seja em Node, Perl, Python, Ruby, PHP, etc, é que trabalhamos com vários ambientes diferentes, pois cada navegador é um ambiente. Cada um tem o seu motor, sua estrutura e seus bugs.
+Diferente de desenvolver algo que rode em um servidor, seja em Node, Perl, Python, Ruby, PHP, etc, é que trabalhamos com vários ambientes diferentes, pois cada navegador é um ambiente. Cada um tem o seu motor, sua estrutura e seus bugs.
 
 De todo o código que você pode abstrair no jQuery, considere uma redução de tempo incrível para testar apenas o mínimo que já foi feito após o carregamento da biblioteca para garantir que tudo funciona em qualquer browser que você queira dar suporte. Lembre-se que o jQuery 1.x ainda dá suporte ao quase extinto IE6, enquanto o jQuery 2.x da suporte a IE9+ e outros navegadores considerados modernos. É um tempo que não precisamos perder.
 

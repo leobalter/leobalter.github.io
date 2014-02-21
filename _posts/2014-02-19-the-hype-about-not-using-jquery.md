@@ -12,27 +12,27 @@ This article is mainly motivated from another [article newly released][1] at [Ta
 
 The first point we need to consider is to remove a JS library and not a framework. Without *inversion of control*, we use the lib only when we need it and it is easy to unplug it and use something else, like vanilla JS.
 
-If the only reason is weight and load time on the site, I recommend putting a number of priorities first. Let's list some problems I found in the same site where the jQuery been removed.
+If the only reason is weight and load time on the site, I recommend putting a number of priorities first. Let's list some problems I found in the same site where the jQuery lib has been removed.
 
 1. Consider not abusing on fonts.
 ========
 
-It's pretty nifty being able to adapt the layout of your site to use different fonts than found by default in browsers. Even so, loading fonts can be very costly to carry over the 100KB of jQuery.
+It's pretty nifty being able to adapt the layout of your site to use different fonts than found by default in browsers. Even so, loading fonts can be very costly.
 
 See the example:
 
 [![Fonts](/images/tableless-fontes.png)](/images/tableless-fontes.png)
 
-This shows that the site loads **more than 320KB of fonts**, with 4 different versions - regular, bold, light and medium - and that are normally used only 2 (regular and bold). If the site forego the light and medium, it would be a savings of 160KB.
+This shows that the site loads **more than 320KB of fonts**, with 4 different versions - regular, bold, light and medium - and that are normally used only 2 (regular and bold). If the site forego the light and medium, it would accomplish a saving of 160KB.
 
-2. Consider not load images.
+2. Consider not loading images.
 ========
 
-In another example the same site carries more than 600KB of images, is the biggest weight on the site. Let's look at this pie chart as the site is weighted:
+In another example the same site carries more than 600KB of images, it is the biggest weight on the site. Let's look at this pie chart as the site is weighted:
 
 [![Pizza chart](/images/tableless-pizza.png)](/images/tableless-pizza.png)
 
-Ie 694KB uploaded on the site - no fonts - have 618KB of images.
+Of 694KB uploaded on the site, not considering fonts, 618KB correspond to images.
 
 But the question is whether they are being used. I did this loading test on the home site, so I went to check what were those images. I finished at the first image I checked, the heaviest of them:
 
@@ -45,7 +45,7 @@ The heavier image that was loaded, with more than 100KB, simply was not used in 
 
 Many sites just do not use compression for they static files. This is something besides minimizing a JS file, but simply complements it with GZIP, for example. Using this jQuery would cost only 32KB to be loaded.
 
-Remember that JS files - for being in essence a text file - has an incredible gain for GZIP compression in relation to images.
+Remember that JS files - for being in essence a text file - have an incredible gain for GZIP compression in relation to images.
 
 4. Consider making a custom build of jQuery.
 ========
@@ -58,21 +58,21 @@ It costs nothing to take a read at [jQuery Github's readme file][2] to see how w
 5. Consider running unit tests.
 =======
 
-Unit tests are important and should be part of the routine of all JS developers who want to keep their projects on a daily basis. They decrease adverse errors and deny the same errors to occur more than once.
+Unit tests are important and should be part of the routine of all JS developers who want to keep their projects on a daily basis. They decrease error occurrences and do not allow multiple occurrences of a single error.
 
 jQuery is quite tested. Therefore, even though you take a smaller part of the library, you will get a code that has been tested and can tell you that future errors can be outside of the library.
 
 How many times do you have implemented something with jQuery and the bug was there in the library and not in your code?
 
-If you actually find a bug in jQuery, report it at their [issue tracker][3]. There will have a team to fix the bug and create tests for it to not happen again. It's like a free outsourcing part of your code.
+If you actually find a bug in jQuery, report it at their [issue tracker][3]. There will have a team to fix the bug and create tests for it to not happen again. It's like outsourcing part of your code for free.
 [3]: http://bugs.jquery.com/
 
 6. Consider the cross-browser compatibility
 ========
 
-Not long ago appeared the "You might not need jQuery", declaring the apex to the hype that I mentioned. Interestingly, they showed how to replace some parts of jQuery to pure JS, with some *ms* performance on the most.
+Not long ago appeared the "You might not need jQuery", reaching the peak of the hype that I mentioned. Interestingly, they showed how to replace some parts of jQuery to pure JS, with few *ms* performance improvement.
 
-The problem is that many times we stopped at very boring compatibility issues.
+The problem is that many times we face very boring compatibility issues.
 
 Unlike developing something that runs on a server, either in Node, Perl, Python, Ruby, PHP, etc., is that we work with many different environments, because each browser is an environment. Each has its engine, its structure and its bugs.
 
