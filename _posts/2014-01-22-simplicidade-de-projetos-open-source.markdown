@@ -11,7 +11,7 @@ Não é todo mundo que tem a chance de ser pago pra trabalhar com projetos abert
 
 O que pode ser feito é aproveitar o argumento de que nesses projetos privados já usamos ferramentas abertas e tentar desacoplar e externar pequenas partes de um projeto fechado e torná-las abertas.
 
-Por exemplo: eu já fiz um plugin simples de mostrar estrelas preenchidas de acordo com uma porcentagem. Extraí só aquila parte como um plugin jQuery e consegui facilmente a autorização pra publicar. 
+Por exemplo: eu já fiz um plugin simples de mostrar estrelas preenchidas de acordo com uma porcentagem. Extraí só aquela parte como um plugin jQuery e consegui facilmente a autorização pra publicar. 
 
 Assim como fiz boa parte do DexterJS dentro da empresa em que trabalho, pois ele é muito utilizado lá. Se ele não tivesse publicado, eu não teria metade das melhorias que já recebeu com a colaboração espontanea de pessoas que não trabalham na mesma empresa. Eu acabei melhorando a qualidade de um produto da empresa, sem abrir nenhuma regra de negócio ou confidencialidade. O custo dessa melhoria foi *0* para empresa. 
 
